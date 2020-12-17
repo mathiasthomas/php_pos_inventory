@@ -18,7 +18,7 @@ if($delete->execute()){
         
           swal({
           title: " Deleted",
-          text: "deletred succesfully",
+          text: "deleted succesfully",
           icon: "success",
           button: "Ok",
         });

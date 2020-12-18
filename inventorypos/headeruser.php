@@ -104,7 +104,7 @@ desired effect
 
                 <p>
                   <?php echo $_SESSION['username'];?>
-                  <small>Member since Nov. 2012</small>
+                  <small>Member since <?php echo date('l jS \of F Y h:i:s A');?></small>
                 </p>
               </li>
               <!-- Menu Body -->

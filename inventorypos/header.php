@@ -121,7 +121,7 @@ desired effect
                   <?php
                     echo $_SESSION['useremail'];
                     ?>
-                  <small>Member since Nov. 2012</small>
+                  <small>Member since <?php echo date('l jS \of F Y');?></small>
                 </p>
               </li>
               <!-- Menu Body -->
